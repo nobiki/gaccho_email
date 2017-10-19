@@ -14,3 +14,4 @@ class Email(Article):
                 ("Email", "28"),
                 ("Email", "33"),
                 ]
+        return timeline
