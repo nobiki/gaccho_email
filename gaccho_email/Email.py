@@ -1,7 +1,7 @@
 from Article import Article
 
 class Email(Article):
-    def hoge(self):
+    def get(self):
         print("Email::get")
 
         timeline = [
