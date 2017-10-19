@@ -5,16 +5,13 @@ class Email(Article):
         return {"text":"WHITE", "back":"BLUE"}
 
     def get(self):
-        print("Email::get")
-
-        timeline = [
-                ("Email", "04"),
-                ("Email", "11"),
-                ("Email", "16"),
-                ("Email", "17"),
-                ("Email", "18"),
-                ("Email", "19"),
-                ("Email", "28"),
-                ("Email", "33"),
+        return [
+                ("Email", "04", "2017-10-19 10:00:00"),
+                ("Email", "11", "2017-10-19 10:00:01"),
+                ("Email", "16", "2017-10-19 10:00:02"),
+                ("Email", "17", "2017-10-19 10:00:03"),
+                ("Email", "18", "2017-10-19 10:00:04"),
+                ("Email", "19", "2017-10-19 10:00:05"),
+                ("Email", "28", "2017-10-19 10:00:09"),
+                ("Email", "33", "2017-10-19 10:00:06"),
                 ]
-        return timeline
