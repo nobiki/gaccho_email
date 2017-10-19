@@ -1,6 +1,9 @@
 from Article import Article
 
 class Email(Article):
+    def color_pair(self):
+        return {"text":"WHITE", "back":"BLUE"}
+
     def get(self):
         print("Email::get")
 
