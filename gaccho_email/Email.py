@@ -2,7 +2,7 @@ from Article import Article
 
 class Email(Article):
     def color_pair(self):
-        return {"text":"WHITE", "back":"BLUE"}
+        return {"color_text":"WHITE", "color_back":"BLUE"}
 
     def get(self):
         return [
